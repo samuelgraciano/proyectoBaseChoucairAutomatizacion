@@ -21,8 +21,8 @@ public class Search implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Click.on(SearchCoursePage.BOTTON_UNIVERSIDAD),
-                Click.on(SearchCoursePage.SIN_PERMISOS)
+        actor.attemptsTo(Click.on(SearchCoursePage.BOTTON_CURSO_Y_SERTIFICACION),
+                Click.on(SearchCoursePage.NAME_CURSE)
                 );
 
 

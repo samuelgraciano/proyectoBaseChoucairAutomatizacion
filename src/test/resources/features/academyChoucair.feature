@@ -13,11 +13,11 @@
       When he search for the course on the choucair academy platform
         | strCourse   |
         | <strCourse> |
-      Then he finds the course called resourses
+      Then he finds the course called
         | strCourse   |
         | <strCourse> |
 
       Examples:
-        | strUser    | strPassword   | strCourse                                      |
-        | 1128404135 | Choucair2021* | You don't have permission to view courses here |
+        | strUser    | strPassword   | strCourse                |
+        | 1128404135 | Choucair2021* |Workshop de Automatización|
 

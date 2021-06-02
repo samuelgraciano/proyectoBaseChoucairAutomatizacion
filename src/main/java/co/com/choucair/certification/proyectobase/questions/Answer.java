@@ -18,7 +18,7 @@ public class Answer implements Question<Boolean> {
 
     @Override
     public Boolean answeredBy(Actor actor) {
-        String resultadoEncontrado = Text.of(SearchCoursePage.NAME_CURSE_ERROR).viewedBy(actor).asString();
+        String resultadoEncontrado = Text.of(SearchCoursePage.NOMBRE_CURSO_ESCOGIDO).viewedBy(actor).asString();
         return resultadoEncontrado.contains(question);
     }
 
