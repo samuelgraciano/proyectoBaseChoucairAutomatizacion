@@ -1,8 +1,6 @@
-/build
+
 /.gradle
 /.idea
-/target
-/out
 .classpath
 .project
 /.settings
@@ -11,3 +9,30 @@
 *.iml
 *.ipr
 *.iws
+*.editorconfig
+
+# Gradle
+
+/log
+/target
+hooks/pre-push
+
+# Java
+
+/build
+/out
+*.class
+*.jar
+*.war
+*.ear
+
+# Log file
+
+*.log
+.scannerwork/report-task.txt
+.scannerwork/.sonar_lock
+.scannerwork/
+
+# Cache of project
+.gradletasknamecache
+
